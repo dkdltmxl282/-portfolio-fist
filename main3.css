@@ -1,0 +1,232 @@
+@charset "utf-8";
+body{
+    font-family: 'Spoqa Han Sans','Malgun Gothic','맑은 고딕',-apple-system, 'Segoe UI', Dotum ,sans-serif;
+    margin:0;
+    position: relative;
+    background:url("images/apptop.jpg") no-repeat;
+    background-position:1000px 200px;}
+a{
+    text-decoration: none;
+    color:inherit;
+    display: inline-block;
+}
+ul{
+    list-style:none;
+    margin:0; padding:0;
+}
+p{
+    margin:0;
+    padding:0;
+    display: inline-block;
+}
+h1,h2,h3{
+    margin:0; padding:0;
+}
+img{
+    vertical-align:top;
+}
+/**************위 배너 영역************/
+.container1{
+    display:flex;
+    justify-content:space-around;
+    align-content:flex-end;
+    height:100%;
+}
+.title2{
+    font-weight:bold;
+    font-size:1.7rem;
+    position:absolute;
+    top:100px; left:150px;
+}
+.myface{
+    display:inline-block;
+    position:absolute;
+    top:250px; left:150px;
+    width:300px;
+    font-size:0.695rem;
+}
+.myface li:nth-child(3){
+    position:absolute;
+    top:15px; left:80px;
+}
+.myface li:nth-child(4){
+    position:absolute;
+    top:35px; left:80px;
+}
+.myface .dot{
+    margin-left:25px;
+}
+.wish2{
+    position: absolute;
+    top:370px; left:150px;
+    line-height:1.2;
+    font-size:0.785rem;
+}
+.head{
+    position: absolute;
+    top:250px; left:450px;
+    line-height:1.2;
+}
+.head h1{
+    font-size:4rem;
+    font-weight:bold;
+}
+.head .project{
+    margin-top:150px;
+    font-size:1.2rem;
+    font-weight:bold;
+}
+.head .project p{
+    display:block;
+    margin:8px 0;
+}
+.head .project img:nth-of-type(1){
+    position:absolute;
+    top:-10px; left:165px;
+}
+.head .project img:nth-of-type(2){
+    position:absolute;
+    top:60px; left:55px;
+}
+nav{
+    position: fixed;
+    bottom:50%; right:100px;
+    color:gray;
+    text-align: right;
+    font-size:0.785rem;
+}
+nav li:nth-child(2){
+    color: black;
+}
+nav li{
+    padding:10px 0;
+}
+/**************아래 메인 내용 영역************/
+.contents{
+    overflow: hidden;
+}
+.main{
+    margin:200px auto;
+    text-align:center;
+}
+
+.vision{
+    margin-top:1050px;
+    margin-right:auto;
+    text-align: center;
+}
+.vision img{
+    margin:20px 0;
+}
+.vision h3{
+    margin:30px 0;
+}
+.vision p{
+    display: block;
+}
+.vision p:last-child{
+    font-size:1.965rem;
+    font-weight:bold;
+}
+.problum figure{
+    display:inline-block;
+    padding:0 20px;
+}
+.problum figure figcaption{
+    margin-top:20px;
+    font-size:0.875rem;
+    font-weight:bold;
+}
+.problum{
+    margin:200px auto;
+    text-align:center;
+}
+.problum h3{
+    margin:30px 0;
+}
+.problum figure{
+    display:inline-block;
+    padding:0;
+    text-align:center;
+}
+.problum figure figcaption{
+    margin-top:20px;
+    font-size:0.875rem;
+    font-weight:bold;
+}
+.selection{
+    margin:200px auto;
+    text-align:center;
+}
+.selection h3{
+    margin:30px 0;
+}
+.selection p{
+    line-height:2.0;
+}
+.improve{
+    margin:200px auto;
+    text-align:center;
+}
+.improve h3{
+    margin:30px 0;
+}
+.improve p{
+    line-height:2.0;
+}
+.target{
+    margin:200px auto;
+    text-align:center;
+}
+.target h3{
+    margin:30px 0;
+}
+.target p{
+    line-height:2.0;
+}
+.stylegide{
+    margin:200px auto;
+    text-align:center;
+}
+.stylegide h3{
+    margin:30px 0;
+}
+.stylegide img{
+    margin-top:20px;
+}
+
+.logo{
+    margin:200px auto;
+    text-align:center;
+    flex-direction: column;
+}
+.logo .txtbox{
+    justify-content:space-between;
+    align-items:flex-start;
+    width:920px; height:47px;
+    margin-left:300px;
+}
+.logo .txtbox p{
+    width:230px;
+    margin:15px 10px;
+}
+.logo img{
+    margin-top:20px;
+}
+.logo .txtbox p:nth-child(2){
+    width:290px;
+}
+.logo .txtbox p:nth-child(3){
+    width:170px;
+}
+
+.appdisign{
+    margin:200px auto;
+    text-align:center;
+    position: absolute;
+    top:4100px; left:10px;
+}
+.appdisign h3{
+    margin:30px 0;
+    text-align:center;
+}

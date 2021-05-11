@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>기현 P.F chapter3</title>
+<!-- og -->
+<meta property="og:title" content="이기현의 포트폴리오">
+<meta property="og:url" content="http://dkdltmxl282.dothome.co.kr">
+<meta property="type" content="website">
+<meta property="og:description" content="웹사이트리뉴얼페이지">
+<meta property="og:image" content="images/logo.jpg">
+<!-- 파비콘 -->
+<link rel="apple-touch-icon" sizes="180x180" href="common/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="common/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="common/favicon/favicon-16x16.png">
+<link rel="manifest" href="common/favicon/site.webmanifest">
+<!-- 평준화 css -->
+<link rel="stylesheet" href="common/normalize.css">
+<!-- 폰트 -->
+<link rel="stylesheet" href="common/fonts.css">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<!-- aos -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+<!-- jQuery -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.min.js"></script>
+<!-- css -->
+<link rel="stylesheet" href="webrenewal1.css">
+</head>
+<body>
+<!-- aos -->
+    <script>
+        AOS.init();
+    </script>
+<!--//aos -->
+<!-- slider -->
+    <script>
+        $(function(){
+            $('.view_btn li').on('click',function(){
+                let idx = $(this).index();
+                $('.view').animate({ marginLeft: -800 * idx },300);
+            }); 
+        });
+    </script>
+<!-- //slider -->
+
+<div id="webrenewal1">
+    <!-- 배너영역 -->
+    <div class="container1">
+        <p class="title1">03.웹사이트Ⅰ<br>리뉴얼</p>
+
+        <ul class="myface" data-aos="fade-right" data-aos-delay="200">
+            <li><img src="images/me.png" alt="이기현 사진"></li>
+            <li><img src="images/twodot.png" alt="인물 사진 및 점 두개의 꾸밈값" class="dot"></li> 
+            <li>이기현</li>
+            <li>Lee Ki-hyun &lpar; 89&period;10&period;19~&rpar;</li>
+        </ul>
+
+        <p class="wish1" data-aos="fade-right" data-aos-delay="200">성실함의 잣대로 스스로를,<br>관대함의 잣대로 다른 이들을.</p>
+
+        <img src="images/qr1.jpg" class="qrcode" alt="모자청 원래 스마트스토어 가는 qr코드" data-aos="fade-right" data-aos-delay="200">
+
+        <div class="head">
+            <h1 data-aos="fade-up" data-aos-delay="180">모자청 홈페이지<br>리뉴얼</h1>
+    
+            <p data-aos="fade-up" data-aos-delay="200">엄마와 아들이 함께<br>수제로 과일청을 만드는 따뜻한 그 곳&colon;&rpar;</p>
+        </div>
+
+        <!-- 우측 메뉴 -->
+        <nav>
+            <ul data-aos="fade-left" data-aos-delay="250">
+                <li><a href="index.html">나의 소개</a></li><li><a href="apprenewal.html">UI/UX 리뉴얼</a></li><li><a href="webrenewal1.html">웹사이트 리뉴얼Ⅰ</a></li><li><a href="webrenewal2.html">웹사이트 리뉴얼Ⅱ</a></li><li><a href="end.html">마치며</a></li>
+            </ul>
+
+        <!-- 페이징
+        <div class="paging">
+            <span class="num"><a href="#">01</a></span><span class="line"></span><span class="num total">04</span>
+        </div>
+         //페이징 -->
+        </nav>
+        <!-- //우측 메뉴 -->
+    </div>
+
+    <div class="container2">
+
+        <!--프로젝트 목표-->
+        <div class="purpose" data-aos="fade-up" data-aos-delay="290">
+           <h2>프로젝트 목표</h2>
+                <p>&middot; 기존 스마트 스토어의 한계점을 탈피.<br>
+                <span class="indent">상품을 돋보이게 하고 판매를 증대시킬 웹사이트 제작.</span></p>
+
+                <p>&middot; 나이대에 상관없이 누구나 쉽게 이용가능한,<br>
+                <span class="indent">심플한 레이아웃의 사이트 구축.</span></p>
+        </div>
+        <!-- /프로젝트 목표-->
+
+        <!--제작기간-->
+        <div class="produced" data-aos="fade-up" data-aos-delay="310">
+            <h2>제작 기간</h2>
+                <p>2021&period;02&period;01 ~ 2021&period;03&period;25</p>
+ 
+                <p>Used &colon; HTML5 &sol; CSS3</p>
+        </div>
+        <!-- /제작기간-->
+
+        <!--퍼블리싱-->
+        <div class="publishing" data-aos="fade-up" data-aos-delay="330">
+            <h2>퍼블리싱</h2>
+                <p>&middot; 1920px 사이즈의 Chromem 브라우저 최적화.</p>
+
+                <p>&middot; 탄탄하고 조직적으로 잘 정리된 HTML로 구현.</p>
+ 
+                <p>&middot; J-Query를 이용한 배너 이미지 변경,<br>
+                <span class="indent">전체적인 페이지에 동적 효과 적용.</span></p>
+
+                <p>&middot; 빠른 페이지 로딩을 위한 포맷의 최적화.</p>
+        </div>
+        <!-- /퍼블리싱-->
+
+        <!--콘셉트-->
+        <div class="concept" data-aos="fade-up" data-aos-delay="360">
+            <h2>콘셉트</h2>
+                <p>&num;싱그럽게 &verbar; 판매상품에 맞게 발랄해보일 수 있도록 구현.</p>
+
+                <p>&num;상큼하게 &verbar; 상품 이미지의 생생한 색감을 해치지 않도록 구현.</p>
+ 
+                <p>&num;심플하게 &verbar; 정리된 텍스트 및 레이아웃으로 구성.</p>
+         </div>
+         <!-- /콘셉트-->
+
+         <!--스타일 가이드-->
+        <div class="style" data-aos="fade-up" data-aos-delay="390">
+            <h2>스타일 가이드</h2>
+                    <p>&num;Color &verbar; 따뜻한 분위기의 브라운색 폰트 사용.<br><span class="indent">심플해 보일 수 있도록 화이트 배경 채택.</span></br>
+                    <span class="indent">상큼한 느낌의 포인트 컬러로 쨍한 오렌지 컬러 사용.</span></p>
+                    
+                        <img src="images/color.jpg" alt="웹사이트 프라이머리컬러">
+
+                    <p>&num;Font &verbar; 브랜드명 제외 누구나 잘 읽을 수 있는 가독성 좋은 폰트 사용.</p>
+
+                        <img src="images/font.jpg" alt="웹사이트 사용폰트">
+        </div>
+
+        <div class="slider" data-aos="fade-up" data-aos-delay="410">
+            <ul class="view_btn">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+            </ul>
+            <ul class="view">
+                <li><img src="images/mojachung.png" alt="웹사이트 배너이미지"></li>
+                <li><img src="images/mojachung2.png" alt="웹사이트 배너이미지2"></li>
+                <li><img src="images/mojachung3.jpg" alt="웹사이트 배너이미지3"></li>
+            </ul>
+        </div>
+        <!-- /스타일가이드-->
+
+        <!-- 마감멘트-->
+         <div class="widhme" data-aos="fade-up" data-aos-delay="430">
+            <p>제가 퍼블리싱 및 리디자인 한 모자청 홈페이지<br>좀 더 자세히 보고 싶다면,</p>
+            <a href="mojachung/mojachung_index.html" target="_blank"><span class="btn">사이트로 이동하기</span></a>
+
+            <a href="webrenewal2.html" class="yellowbtn"><span>NEXT</span></a>
+        </div>
+
+    </div>
+</div>
+</body>
+</html>
+
+
+
+
+
